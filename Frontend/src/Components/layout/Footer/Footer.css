@@ -1,0 +1,75 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.leftFooter{
+width: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.leftFooter > h4{
+    font-family: Arial;
+    font-size: 1vmax;
+}
+
+.leftFooter > p{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 1vmax;
+}
+
+.leftFooter > img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.midFooter{
+    width: 60%;
+    text-align: center;
+}
+
+.midFooter >h1{
+    font-size: 4vmax;
+    font-family: Arial;
+    color:brown
+}
+
+.midFooter >p{
+    max-width: 60%;
+    margin: 1vmax auto;
+}
+
+.rightFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightFooter > h4{
+    font-family: 'Courier New';
+    font-size: 1.4vmax;
+    text-decoration: underline;
+    color: black;
+}
+
+.rightFooter > a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin: 0.5vmax;
+    transition: all 0.5s;
+}
+
+.rightFooter > a:hover{
+    color: rgb(1, 0, 3);
+}
